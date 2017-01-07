@@ -1,0 +1,8 @@
+ Algorithm: - 
+
+Step -1:  Read the image (input image).  
+ Step -2: Split the input image (color image) into R, G, B channels.  
+ Step -3: Decompose each component using Singular Value Decomposition.  
+ Step -4: Select r value and discard the diagonal value of S matrix not required.  Construct the image using the selected singular values.  
+          The r - value in the m-file represents the number of iterations taken on each   layer   used in the resulting decomposition. This is actually the rank of the SVD matrix. By increasing the rank we can increase clarity until an optimal image is reached.  
+ Step -5: Display the compressed image. 
