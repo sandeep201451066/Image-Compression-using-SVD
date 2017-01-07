@@ -32,3 +32,7 @@ Size = 189KB**
 **r = 150
 CR = 1.8
 Size = 200KB**
+
+# **Graph**
+**Error between Compressed and Original Image vs Number of Singular values**
+![horseerror](https://cloud.githubusercontent.com/assets/19153198/21739471/be0b350a-d4c1-11e6-8436-58f341d61a65.png)
